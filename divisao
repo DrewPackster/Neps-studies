@@ -1,0 +1,11 @@
+#include<stdio.h>
+
+ float main(){
+
+    float A, B;
+    scanf("%f\n", &A);
+    scanf("%f\n", &B);
+    printf("%2.f", A/B);
+
+
+}
