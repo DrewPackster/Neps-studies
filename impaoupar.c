@@ -1,13 +1,14 @@
 #include<stdio.h>
-
 int main(){
+    int B,C;
+    scanf("%d", &B);
+    scanf("%d", &C);
+if((B+C)%2==0){
+    printf("bino");
+}
+if((B+C)%2!=0){
+    printf("cino");
+}
 
-int a;
-scanf("%d", &a);
-if(a%2==0){
-    printf("par\n");
-}
-if(a%2 !=0){
-    printf("impar");
-}
+
 }

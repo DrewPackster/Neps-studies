@@ -1,20 +1,17 @@
 #include<stdio.h>
-float main(){
-    float a,b,media;
-    media=(a+b)/2;
-
-    scanf("%f", &a);
-    scanf("%f", &b);
-    
-    if(media>=7){
+    float main(){
+        float nota1,nota2;
+        scanf("%f", &nota1);
+        scanf("%f", &nota2);
+    if((nota1+nota2)/2>=7){
         printf("Aprovado");
     }
-
-    if(media<7 && media>=4){
+    if((nota1+nota2)/2<7 && (nota1+nota2)/2>=4){
         printf("Recuperação");
     }
-
-    if(media<4){
+    if((nota1+nota2)/2<4){
         printf("Reprovado");
     }
-}
+
+
+    }
