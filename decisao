@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main(){
+/*
+    < Menor
+    > Maior
+    <= Menor ou igual
+    >= Maior ou igual
+    == Igual
+    != Diferente 
+    
+    Verdade tem valor 1
+    Falso tem valor 0
+*/
+
+    printf("%d\n", 2<4);    
+
+}
